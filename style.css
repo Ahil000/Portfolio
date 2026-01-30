@@ -14,7 +14,7 @@ body {
 
 /* This creates real scroll height */
 .bg-image {
-    background-image: url("Bilde1.png");
+    background-image: url("bilde1.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% auto;

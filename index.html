@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Min portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-image">
+
+    <!-- Navigasjon -->
+    <nav>
+        <button onclick="scrollTil('om')">Om meg</button>
+        <button onclick="scrollTil('prosjekter')">Mine prosjekter</button>
+        <button onclick="scrollTil('kontakt')">Kontakt meg</button>
+    </nav>
+
+    <!-- Side 1 -->
+    <section class="seksjon hjem" id="hjem">
+        <h1>MIN PORTFOLIO</h1>
+        <h2>Ahil</h2>
+    </section>
+
+    <!-- Side 2 -->
+    <section class="seksjon" id="om">
+        <h1>Om meg</h1>
+        <p class="text">
+            Jeg går VG1 informasjonsteknologi og medieproduksjon og liker å jobbe med koding,
+            nettsider og teknologi. Jeg ønsker å lære mer om programmering
+            og utvikling i fremtiden.
+        </p>
+    </section>
+
+    <!-- Side 3 -->
+    <section class="seksjon" id="prosjekter">
+        <h1>Mine prosjekter</h1>
+
+        <div class="prosjekter">
+            <img src="bilde5.png">
+            <!-- <div class="boks">Prosjekt 1</div>
+            <div class="boks">Prosjekt 2</div> -->
+            <!-- <div class="boks">Prosjekt 3</div> -->
+        </div>
+
+    </section>
+
+    <!-- Side 4 -->
+    <section class="seksjon" id="kontakt">
+        <h1>Kontakt meg</h1>
+        <p> <i class="fa-solid fa-phone"></i> 95 63 89 42</p>
+        <p><i class="fa-solid fa-envelope"></i> ahil@example.com</p>
+        <p> <i class="fa-solid fa-house"></i>Skoleveien 237, 0154 Oslo</p>
+        <p> Norge</p>
+          <!-- Knapp -->
+  <button id="openMessage">Send meg en melding</button>
+
+  <!-- Meldingsboks -->
+  <div id="messageBox" style="display:none; margin-top:10px;">
+    <textarea id="messageText" placeholder="Skriv meldingen her..."></textarea>
+    <br>
+    <button id="sendMessage">Send</button>
+  </div>
+
+  <!-- Takk-melding -->
+  <p id="thankYou" style="display:none; margin-top:10px;">
+    Tusen takk
+  </p>
+ 
+    </section>
+
+    <script src="index.js"></script>
+
+</div>
+</body>
+</html>
